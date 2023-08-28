@@ -7,7 +7,7 @@ void main() {
   String name = "anaz htz";
   int age = 12;
   double mark = 85.22;
-  print("my name is $name");
+  print("my name is $name"); //"&" aa varible kaanikkan vendi aan $ kodukunnath
   print(age);
   print(mark);
   print("my age is $age");
@@ -27,15 +27,12 @@ void main() {
   add();
   sub();
   mul();
-
-
 }
 
   void add(){
     int a=20;
     int b=25;
     print("answer=${a+b}");
-
   }
   void sub(){
     int a=10,b=8;

@@ -10,7 +10,7 @@ class Myclass{
 
 }
 void main(){
-  Myclass obj=Myclass();
+  var obj=Myclass();
   print(obj.name);
   print(obj.age);
   print("My name is ${obj.name}   my age is ${obj.age}");
@@ -18,7 +18,8 @@ void main(){
   Myclass obj1=Myclass();
   print(obj1.name="ansil");
   print(obj1.age=18);
-  print(Myclass.course); // calling static variable oinly with class name
+  print(Myclass.course); // calling static variable only with class name
+  
 
   
 
