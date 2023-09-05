@@ -1,4 +1,3 @@
-import 'dart:io';
 
 void main(){
   List<int> age=[20,23,25,18,26,28];
@@ -20,6 +19,7 @@ void main(){
   print(num);
   num.addAll(age);  //merge all list
   print(num);
+  print(num.join("     ")); //postion nil gap edaan
   age.forEach((element) {  //list values thaye thaye varaan
     print(element);
   });
