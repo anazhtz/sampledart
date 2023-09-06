@@ -23,6 +23,17 @@ Map<String,dynamic> value={"Gender" : "Male", "adhar no" : 25541};
  print(value);
  value.remove("adhar no");
  print(value);
+var list1= ["anaz","ramu","balu","mani","rajan" ];
+var list2=[12,14,15,15,10];
+ Map map4= Map.fromIterables(list1, list2);  //covert to list to map
+ print(map4);
+ Map map3={}..addAll(map4)..addAll(map2);  //to add all maps to single map
+ print(map3);
+ Map map5={...map3,...map4,...map2,...map1}; //to add all maps to single map
+ print(map5);
+
+
+
 
 
 }
