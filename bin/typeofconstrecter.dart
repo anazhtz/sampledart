@@ -14,5 +14,4 @@ void main(){
   Myclass obj=Myclass();
   Myclass obj1=Myclass.one(15, 12);
   obj.display();
-
 }
