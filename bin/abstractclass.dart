@@ -1,4 +1,4 @@
-abstract class Myclass{               //we can create bodu function  and also create without body function
+abstract class Myclass{               //we can create body function  and also create without body function
   String name="Anaz";
   int age=24;
   void display(){

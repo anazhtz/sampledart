@@ -1,0 +1,3 @@
+class Myexception implements Exception{
+
+}
