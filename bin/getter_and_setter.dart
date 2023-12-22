@@ -17,3 +17,11 @@ class gettersetter{
 }
 
 }
+void main(){
+  var obj=gettersetter();
+  obj.name=("Anas");
+  obj.age=(25);
+  obj.course=("fluter");
+  obj.mark=(80);
+
+}
